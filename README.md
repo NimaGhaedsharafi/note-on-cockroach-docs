@@ -18,4 +18,4 @@
 - Right now, It can't apply multiple indexes on a single query but it's planned to adopt.
 - Apply a function on a column in a where clause causes a full table scan, so don't use it unitl db supports prefix/experssion indexes.
 - It supports `UPSERT`.
-- If you need to dig into a query just add `expalin` before the query. It's much more self-explanatory than mysql.
+- If you need to dig into a query just add `explain` before the query. It's much more self-explanatory than mysql.
