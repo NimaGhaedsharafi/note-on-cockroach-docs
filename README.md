@@ -10,8 +10,8 @@
 - Type `\q` to exit from SQL shell
 - Supported row values are `int, float, real, boolean, decima, numeric, null,bytes, string, character, collate, auto increament, key-value, array, uuid, json, time, xml, uint, set, enum, inet` [[details]](https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#row-values)
 - Supported constraints are `not null, unique, primary key, check, foreign key, default value` [[details]](https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#constraints)
-- Transactions operators are `begin, commit, rollback, savepoint` [[details]] (https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#transactions)
-- Supported indexes are `standard, multi-col, covering, inverted` [[details]] (https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#indexes)
+- Transactions operators are `begin, commit, rollback, savepoint` [[details]](https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#transactions)
+- Supported indexes are `standard, multi-col, covering, inverted` [[details]](https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#indexes)
 - DB has no explicit limitation on number of column to be indexed.
 - Unfortunately, it doesn't support `geospatial` indexes for now.
 - Full-text indexes are not supported yet but it's planned.
