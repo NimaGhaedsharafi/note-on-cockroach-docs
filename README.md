@@ -5,7 +5,7 @@
 - Just after launch, it shows you some stuff about the node, including its admin UI and connection string.
 - It uses driver of Postgres, so almost everywhere you can use it.
 - Hopefully, Cockroach supports SQL.
-- Definition of table is a bit different than Postgres's.
+- Definition of table is a bit different than definition of Postgres.
 - In order to access db by terminal, just enter `cockroach sql --insecure`
 - Type `\q` to exit from SQL shell
 - Supported row values are `int, float, real, boolean, decima, numeric, null,bytes, string, character, collate, auto increament, key-value, array, uuid, json, time, xml, uint, set, enum, inet` [[details]](https://www.cockroachlabs.com/docs/stable/sql-feature-support.html#row-values)
