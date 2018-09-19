@@ -19,3 +19,10 @@
 - Apply a function on a column in a where clause causes a full table scan, so don't use it unitl db supports prefix/experssion indexes.
 - It supports `UPSERT`.
 - If you need to dig into a query just add `explain` before the query. It's much more self-explanatory than mysql.
+- There are five categories of constant `String literals 'hello', Numeric literals -1.63, Byte array literals b'hello', Interpreted literals INTERVAL '3 days', Named constants NULL TRUE`.
+- Two simple string literals separated by a newline character are automatically concatenated together to form a single constant.
+- It supports string literals containing escape sequences like in the programming language C. These are constructed by prefixing the string literal with the letter e, for example, e'hello\nworld!'
+- The two differences between byte array literals and string literals with character escapes are as follows:
+  * Byte array literals always have data type BYTES, whereas the data type of a string literal depends on context.
+  * Byte array literals may contain invalid UTF-8 byte sequences, whereas string literals must always contain valid UTF-8 sequences.
+- A `VALUES` clause defines tabular data defined by the expressions listed within parentheses (try `VALUES (1, 2, 3), (4, 5, 6);`)
